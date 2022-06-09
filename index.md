@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 'OIM3640 Problem Solving and Software Design - 2022'
+title: 'home'
 toc:
   - name: Datetime and Address
     link: "#Datetime and Address"
