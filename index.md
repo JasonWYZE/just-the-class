@@ -23,7 +23,7 @@ toc:
 
 seo:
   type: Course
-  name: 'OIM3640 Problem Solving and Software Design - 2022'
+  name: 'home'
 ---
 
 
@@ -33,7 +33,7 @@ seo:
 {% include DateAddress.md %}
 
 ---
-
+<!-- 
 ## Recent Announcements
 {% assign num_recent_announcements = 2 %}
 {% assign all_announcements = site.announcements | sort: "date" | reverse %}
@@ -70,4 +70,4 @@ seo:
 ## All Announcements
 {% for announcement in all_announcements %}
   {{ announcement }}
-{% endfor %}
+{% endfor %} -->
