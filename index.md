@@ -1,5 +1,5 @@
 ---
-layout: one-page
+layout: home
 title: 'OIM3640 Problem Solving and Software Design - 2022'
 toc:
   - name: Datetime and Address
