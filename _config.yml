@@ -16,10 +16,11 @@
 title: Just the Class
 tagline: A Jekyll template for course websites
 description: A modern, highly customizable, responsive Jekyll template for course websites
-author: Kevin Lin
+author: Li Zhi, Jason Wang
 baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
+
 url: 'https://OIM3640' # the base hostname & protocol for your site, e.g. http://example.com
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE","readme.md"]
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.3.3
@@ -28,10 +29,26 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
-  Kevin Lin:
-    - 'https://kevinl.info'
-  Just the Class on GitHub:
-    - 'https://github.com/kevinlin1/just-the-class'
+  slack:
+    title: 'Slack' 
+    link: ''
+    show: true
+  canvas:
+    title: 'Grades'
+    link: ''
+    show: true
+  webex:
+    title: 'Webex'
+    link: ''
+    show: true
+  recordings:
+    title: 'Recording'
+    link: ''
+    show: true
+  github:
+    title: 'github'
+    link: ''
+    show: true
 footer_content:
 
 # Collections for website data
