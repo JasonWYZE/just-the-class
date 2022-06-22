@@ -13,11 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: OIM3640'
+title: OIM3640
 description: Problem Solving and Software Design
 author: Li Zhi
 baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
-
 url: 'https://OIM3640' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
@@ -27,26 +26,16 @@ color_scheme: light
 search_enabled: true
 permalink: pretty
 aux_links:
-  slack:
-    title: 'Slack' 
-    link: ''
-    show: true
-  canvas:
-    title: 'Grades'
-    link: ''
-    show: true
-  webex:
-    title: 'Webex'
-    link: ''
-    show: true
-  recordings:
-    title: 'Recording'
-    link: ''
-    show: true
-  github:
-    title: 'github'
-    link: ''
-    show: true
+  Slack:
+    - ''
+  Canvas:
+    - ''
+  Webex:
+    - 'https://babson.webex.com/meet/zli'
+  Recordings:
+    - ''
+  Github:
+    - 'https://github.com/OIM3640'
 footer_content:
 
 # Collections for website data

@@ -18,49 +18,39 @@ timeline:
   - '4:30 PM'
   - '5:00 PM'
   - '5:30 PM'
+  - '6:00 PM'
+  - '6:30 PM'
+
 schedule:
-  - name: Monday
-    events:
-      - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
-      - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+  - name: Monday 
   - name: Tuesday
+    events:
+      - name: Section 01
+        start: 3:00 PM
+        end: 4:30 PM
+        location: Horn Computer Center 170
+      - name: Section 02
+        start: 4:45 PM
+        end: 6:15 PM
+        location: Horn Computer Center 170
+      - name: Office Hours
+        start: 12:30 PM
+        end: 2:00 PM
+        location: Horn Computer Center 170
   - name: Wednesday
-    events:
-      - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
-      - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
   - name: Thursday
-  - name: Friday
     events:
-      - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
+      - name: Section 01
+        start: 3:00 PM
+        end: 4:30 PM
+        location: Horn Computer Center 170
+      - name: Section 02
+        start: 4:45 PM
+        end: 6:15 PM
+        location: Horn Computer Center 170
       - name: Office Hours
         start: 12:30 PM
         end: 2:00 PM
-        location: 271 Soda
+        location: Horn Computer Center 170
+  - name: Friday
 ---
